@@ -1,0 +1,6 @@
+{
+  "name": "Scattergates",
+  "description": "Scattergates Business Solutions Private Limited provides high-performance servers, active networking equipment, end-user devices, structured cabling, audio-visual conferencing systems, and professional IT consulting and outsourcing across India.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
