@@ -27,7 +27,7 @@ export default function BrandsSection() {
       tagline: "Modern brand system for digital-first enterprise partnerships",
       description: "This custom Scattergates logo embodies our signature visual identity, pairing bold geometry with an energetic red gradient and a polished dark background that enhances contrast and recognition.",
       logoText: "Scattergates",
-      image: IMAGE_PATHS.brands.scattergates,
+      image: IMAGE_PATHS.manufacturers.scattergates,
       color: "from-slate-900 via-red-700 to-rose-600",
       icon: Cpu,
       specifications: [
@@ -44,7 +44,7 @@ export default function BrandsSection() {
       tagline: "Compute power built for high-scale productivity",
       description: "As certified Lenovo distributors, Scattergates delivers extreme computational performance directly to your teams. From legendary ThinkPad series notebooks designed for field resilience, to ThinkCentre desktop units and ThinkSystem scalable server racks, we manage sizing, deployment, imaging, and full OEM warranty maintenance.",
       logoText: "Lenovo.",
-      image: IMAGE_PATHS.brands.lenovo,
+      image: IMAGE_PATHS.manufacturers.lenovo,
       color: "from-red-600 to-rose-700",
       icon: Laptop,
       specifications: [
@@ -61,7 +61,7 @@ export default function BrandsSection() {
       tagline: "Uncompromised performance and absolute failover compute",
       description: "Our partnership with HP brings robust ProLiant rack systems, high-density computing clusters, and modern EliteBook user endpoints to your Bangalore or pan-India office clusters. Engineered for continuous database execution, virtualization, and advanced cybersecurity protocols right out of the box.",
       logoText: "hp",
-      image: IMAGE_PATHS.brands.hp,
+      image: IMAGE_PATHS.manufacturers.hp,
       color: "from-blue-600 to-indigo-700",
       icon: Cpu,
       specifications: [
@@ -78,7 +78,7 @@ export default function BrandsSection() {
       tagline: "Acoustic perfection for the modern hybrid office",
       description: "Eliminate low-bandwidth speaker issues and remote worker strain. We deploy certified Jabra workspace products that feature advanced background active noise canceling, crystal-clear beamforming microphone arrays, and intelligent 180-degree panoramic boardroom setups.",
       logoText: "Jabra GN",
-      image: IMAGE_PATHS.brands.jabra,
+      image: IMAGE_PATHS.manufacturers.jabra,
       color: "from-amber-500 to-yellow-600",
       icon: Volume2,
       specifications: [
@@ -95,7 +95,7 @@ export default function BrandsSection() {
       tagline: "Immersive video collaboration on real desktop budgets",
       description: "Scattergates installs and calibrates high-fidelity Logitech video conference packages across boardrooms of all capacities. With automated camera PTZ panning, intelligent speaker tracking, and simple one-tap controller hubs, your next virtual briefing is just a click away.",
       logoText: "logitech",
-      image: IMAGE_PATHS.brands.logitech,
+      image: IMAGE_PATHS.manufacturers.logitech,
       color: "from-emerald-500 to-teal-600",
       icon: Video,
       specifications: [
@@ -112,7 +112,7 @@ export default function BrandsSection() {
       tagline: "Premium sound systems engineered for high density staffing",
       description: "Designed for intensive call centers, technical staffing setups, and premium engineering focus rooms, EPOS audio technology provides brainadapt adaptive hearing support. This minimizes call-fatigue and boosts operational communications clarity exponentially.",
       logoText: "EPOS",
-      image: IMAGE_PATHS.brands.epos,
+      image: IMAGE_PATHS.manufacturers.epos,
       color: "from-purple-600 to-fuchsia-700",
       icon: Headphones,
       specifications: [
@@ -129,7 +129,7 @@ export default function BrandsSection() {
       tagline: "Absolute hardware recovery & data backup systems",
       description: "Ensure flawless disaster prevention. In co-partnership with Stellar diagnostics, we integrate robust continuous data care platforms, RAID server recovery routines, redundant NAS storage arrays, and secure software sanitization systems matching highest compliance models.",
       logoText: "stellar",
-      image: IMAGE_PATHS.brands.stellar,
+      image: IMAGE_PATHS.manufacturers.stellar,
       color: "from-orange-500 to-red-600",
       icon: HardDrive,
       specifications: [

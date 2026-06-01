@@ -15,13 +15,13 @@ export const IMAGE_PATHS = {
     corporateWorkstation: "/images/products/corporate-workstation.webp",
     hardwareComponents: "/images/products/hardware-components.webp",
   },
-  brands: {
+  manufacturers: {
     scattergates: "/images/branding/scattergates-logo.png",
-    lenovo: "/images/brands/lenovo.webp",
-    hp: "/images/brands/hp.webp",
-    jabra: "/images/brands/jabra.webp",
-    logitech: "/images/brands/logitech.webp",
-    epos: "/images/brands/epos.webp",
-    stellar: "/images/brands/stellar.webp",
+    lenovo: "/images/manufacturers/lenovo.webp",
+    hp: "/images/manufacturers/hp.webp",
+    jabra: "/images/manufacturers/jabra.webp",
+    logitech: "/images/manufacturers/logitech.webp",
+    epos: "/images/manufacturers/epos.webp",
+    stellar: "/images/manufacturers/stellar.webp",
   },
 } as const;
