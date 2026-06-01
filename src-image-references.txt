@@ -1,0 +1,78 @@
+﻿C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:import { IMAGE_PATHS } from "../config/imagePaths";
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:interface BrandItem {
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:export default function BrandsSection() {
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:const [activeBrandId, setActiveBrandId] = useState<string>("scattergates");
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:const brands: BrandItem[] = [
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:tagline: "Modern brand system for digital-first enterprise partnerships",
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:image: IMAGE_PATHS.manufacturers.scattergates,
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:"Responsive brand presentation guidance",
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:image: IMAGE_PATHS.manufacturers.lenovo,
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:image: IMAGE_PATHS.manufacturers.hp,
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:image: IMAGE_PATHS.manufacturers.jabra,
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:image: IMAGE_PATHS.manufacturers.logitech,
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:image: IMAGE_PATHS.manufacturers.epos,
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:image: IMAGE_PATHS.manufacturers.stellar,
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:const activeIndex = brands.findIndex(b => b.id === activeBrandId);
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:const activeBrand = brands[activeIndex];
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:<section id="brands" className="py-20 md:py-28 relative overflow-hidden bg-slate-50 border-b border-slate-100">
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:02. Portfolio Brands
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:{/* Brand Sliding Interactive Dashboard with extreme polish, glass effects, and animations */}
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:{/* Brand Buttons List Column (Touch target 44px responsive) */}
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:Select Manufacturer
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:{brands.map((b) => {
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:const isSelected = b.id === activeBrandId;
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:const BrandIcon = b.icon;
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:id={`brand-tab-${b.id}`}
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:onClick={() => setActiveBrandId(b.id)}
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:<BrandIcon className="h-5 w-5" />
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:key={activeBrand.id}
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:boxShadow: `0 20px 40px -15px rgba(15, 23, 42, 0.05), 0 30px 60px -30px rgba(${                    activeBrand.id === "scattergates" ? "181, 18, 79" : // Custom Scattergates deep red                    activeBrand.id === "lenovo" ? "220, 38, 38" : // Red
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:activeBrand.id === "hp" ? "37, 99, 235" : // Blue
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:activeBrand.id === "jabra" ? "245, 158, 11" : // Amber/Yellow
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:activeBrand.id === "logitech" ? "16, 185, 129" : // Emerald
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:activeBrand.id === "epos" ? "147, 51, 234" : // Purple
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:{/* Brand Visual Segment */}
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:{activeBrand.id === "scattergates" ? (
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:src={activeBrand.image}
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:alt={activeBrand.name}
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:src={activeBrand.image}
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:alt={activeBrand.name}
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:{activeBrand.name} Assets
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:{/* Brand Copy & Sizing Info Segment */}
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:<span className={`text-[10px] font-mono px-3 py-1 rounded-full bg-gradient-to-r ${activeBrand.color} text-white font-bold uppercase tracking-wider shadow-sm truncate shrink-0`}>
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:{activeBrand.category}
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:<span className={`text-xl md:text-2xl font-sans font-black bg-gradient-to-r ${activeBrand.color} bg-clip-text text-transparent italic tracking-tight uppercase pl-2 pr-3.5 py-0.5 block shrink-0`}>
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:{activeBrand.logoText}
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:{activeBrand.tagline}
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:{activeBrand.description}
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:{activeBrand.specifications.map((spec, sIdx) => (
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\BrandsSection.tsx:<div className={`h-4.5 w-4.5 rounded-full bg-gradient-to-br ${activeBrand.color} text-white flex items-center justify-center shrink-0 shadow-sm shadow-black/5 mt-0.5`}>
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\Logo.tsx:import { BRAND } from "../config/branding";
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\Logo.tsx:src={BRAND.fullmark}
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\Logo.tsx:alt={`${BRAND.name} Logo`}
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\ServicesDetailed.tsx:import { IMAGE_PATHS } from "../config/imagePaths";
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\ServicesDetailed.tsx:imageUrl: IMAGE_PATHS.services.itInfrastructure,
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\ServicesDetailed.tsx:imageUrl: IMAGE_PATHS.services.networkInfrastructure,
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\ServicesDetailed.tsx:imageUrl: IMAGE_PATHS.services.managedServices,
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\ServicesDetailed.tsx:image: IMAGE_PATHS.products.enterprisePtzBoardroom,
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\ServicesDetailed.tsx:image: IMAGE_PATHS.products.rackServer,
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\ServicesDetailed.tsx:image: IMAGE_PATHS.products.structuredCabling,
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\ServicesDetailed.tsx:image: IMAGE_PATHS.products.corporateWorkstation,
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\ServicesDetailed.tsx:image: IMAGE_PATHS.products.hardwareComponents,
+C:\Users\ettas\Downloads\Scattergates_2nd\src\components\ServicesDetailed.tsx:We deliver original equipment manufacturer configurations, structured spare components, and custom active hardware suites tailored to Bangalore and global corporate environments.
+C:\Users\ettas\Downloads\Scattergates_2nd\src\config\branding.ts:export const BRAND = {
+C:\Users\ettas\Downloads\Scattergates_2nd\src\config\branding.ts:symbol: "/images/branding/symbol.png",
+C:\Users\ettas\Downloads\Scattergates_2nd\src\config\branding.ts:fullmark: "/images/branding/scattergates-logo.png",
+C:\Users\ettas\Downloads\Scattergates_2nd\src\config\imagePaths.ts:export const IMAGE_PATHS = {
+C:\Users\ettas\Downloads\Scattergates_2nd\src\config\imagePaths.ts:manufacturers: {
+C:\Users\ettas\Downloads\Scattergates_2nd\src\config\imagePaths.ts:scattergates: "/images/branding/scattergates-logo.png",
+C:\Users\ettas\Downloads\Scattergates_2nd\src\config\imagePaths.ts:lenovo: "/images/manufacturers/lenovo.webp",
+C:\Users\ettas\Downloads\Scattergates_2nd\src\config\imagePaths.ts:hp: "/images/manufacturers/hp.webp",
+C:\Users\ettas\Downloads\Scattergates_2nd\src\config\imagePaths.ts:jabra: "/images/manufacturers/jabra.webp",
+C:\Users\ettas\Downloads\Scattergates_2nd\src\config\imagePaths.ts:logitech: "/images/manufacturers/logitech.webp",
+C:\Users\ettas\Downloads\Scattergates_2nd\src\config\imagePaths.ts:epos: "/images/manufacturers/epos.webp",
+C:\Users\ettas\Downloads\Scattergates_2nd\src\config\imagePaths.ts:stellar: "/images/manufacturers/stellar.webp",
+C:\Users\ettas\Downloads\Scattergates_2nd\src\App.tsx:import BrandsSection from "./components/BrandsSection";
+C:\Users\ettas\Downloads\Scattergates_2nd\src\App.tsx:// Gentle 900ms corporate brand introduction to smooth out layout shift and prevent white flash
+C:\Users\ettas\Downloads\Scattergates_2nd\src\App.tsx:{/* Authorized OEM Brand Partnerships */}
+C:\Users\ettas\Downloads\Scattergates_2nd\src\App.tsx:<BrandsSection />

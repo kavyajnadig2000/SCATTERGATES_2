@@ -94,7 +94,7 @@ const images = [
     accent: '#22c55e',
   },
   {
-    filename: 'public/images/brands/lenovo.webp',
+    filename: 'public/images/manufacturers/lenovo.webp',
     width: 900,
     height: 600,
     title: 'Lenovo',
@@ -102,7 +102,7 @@ const images = [
     accent: '#f97316',
   },
   {
-    filename: 'public/images/brands/hp.webp',
+    filename: 'public/images/manufacturers/hp.webp',
     width: 900,
     height: 600,
     title: 'HP',
@@ -110,7 +110,7 @@ const images = [
     accent: '#3b82f6',
   },
   {
-    filename: 'public/images/brands/jabra.webp',
+    filename: 'public/images/manufacturers/jabra.webp',
     width: 900,
     height: 600,
     title: 'Jabra',
@@ -118,7 +118,7 @@ const images = [
     accent: '#f43f5e',
   },
   {
-    filename: 'public/images/brands/logitech.webp',
+    filename: 'public/images/manufacturers/logitech.webp',
     width: 900,
     height: 600,
     title: 'Logitech',
@@ -126,12 +126,20 @@ const images = [
     accent: '#22c55e',
   },
   {
-    filename: 'public/images/brands/epos.webp',
+    filename: 'public/images/manufacturers/epos.webp',
     width: 900,
     height: 600,
     title: 'EPOS',
     colors: ['#0f172a', '#111827', '#1f2937'],
     accent: '#818cf8',
+  },
+  {
+    filename: 'public/images/manufacturers/stellar.webp',
+    width: 900,
+    height: 600,
+    title: 'Stellar',
+    colors: ['#111827', '#0f172a', '#1f2937'],
+    accent: '#ef4444',
   }
 ];
 
