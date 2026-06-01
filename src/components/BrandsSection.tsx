@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { Laptop, Cpu, Volume2, Video, Headphones, HardDrive, ArrowUpRight, Check } from "lucide-react";
+import { IMAGE_PATHS } from "../config/imagePaths";
 
 interface BrandItem {
   id: string;
@@ -26,7 +27,7 @@ export default function BrandsSection() {
       tagline: "Modern brand system for digital-first enterprise partnerships",
       description: "This custom Scattergates logo embodies our signature visual identity, pairing bold geometry with an energetic red gradient and a polished dark background that enhances contrast and recognition.",
       logoText: "Scattergates",
-      image: "/scattergates-logo.svg",
+      image: IMAGE_PATHS.brands.scattergates,
       color: "from-slate-900 via-red-700 to-rose-600",
       icon: Cpu,
       specifications: [
@@ -43,7 +44,7 @@ export default function BrandsSection() {
       tagline: "Compute power built for high-scale productivity",
       description: "As certified Lenovo distributors, Scattergates delivers extreme computational performance directly to your teams. From legendary ThinkPad series notebooks designed for field resilience, to ThinkCentre desktop units and ThinkSystem scalable server racks, we manage sizing, deployment, imaging, and full OEM warranty maintenance.",
       logoText: "Lenovo.",
-      image: "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&q=80&w=800",
+      image: IMAGE_PATHS.brands.lenovo,
       color: "from-red-600 to-rose-700",
       icon: Laptop,
       specifications: [
@@ -60,7 +61,7 @@ export default function BrandsSection() {
       tagline: "Uncompromised performance and absolute failover compute",
       description: "Our partnership with HP brings robust ProLiant rack systems, high-density computing clusters, and modern EliteBook user endpoints to your Bangalore or pan-India office clusters. Engineered for continuous database execution, virtualization, and advanced cybersecurity protocols right out of the box.",
       logoText: "hp",
-      image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&q=80&w=800",
+      image: IMAGE_PATHS.brands.hp,
       color: "from-blue-600 to-indigo-700",
       icon: Cpu,
       specifications: [
@@ -77,7 +78,7 @@ export default function BrandsSection() {
       tagline: "Acoustic perfection for the modern hybrid office",
       description: "Eliminate low-bandwidth speaker issues and remote worker strain. We deploy certified Jabra workspace products that feature advanced background active noise canceling, crystal-clear beamforming microphone arrays, and intelligent 180-degree panoramic boardroom setups.",
       logoText: "Jabra GN",
-      image: "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&q=80&w=800",
+      image: IMAGE_PATHS.brands.jabra,
       color: "from-amber-500 to-yellow-600",
       icon: Volume2,
       specifications: [
@@ -94,7 +95,7 @@ export default function BrandsSection() {
       tagline: "Immersive video collaboration on real desktop budgets",
       description: "Scattergates installs and calibrates high-fidelity Logitech video conference packages across boardrooms of all capacities. With automated camera PTZ panning, intelligent speaker tracking, and simple one-tap controller hubs, your next virtual briefing is just a click away.",
       logoText: "logitech",
-      image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=800",
+      image: IMAGE_PATHS.brands.logitech,
       color: "from-emerald-500 to-teal-600",
       icon: Video,
       specifications: [
@@ -111,7 +112,7 @@ export default function BrandsSection() {
       tagline: "Premium sound systems engineered for high density staffing",
       description: "Designed for intensive call centers, technical staffing setups, and premium engineering focus rooms, EPOS audio technology provides brainadapt adaptive hearing support. This minimizes call-fatigue and boosts operational communications clarity exponentially.",
       logoText: "EPOS",
-      image: "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&q=80&w=800",
+      image: IMAGE_PATHS.brands.epos,
       color: "from-purple-600 to-fuchsia-700",
       icon: Headphones,
       specifications: [
@@ -128,7 +129,7 @@ export default function BrandsSection() {
       tagline: "Absolute hardware recovery & data backup systems",
       description: "Ensure flawless disaster prevention. In co-partnership with Stellar diagnostics, we integrate robust continuous data care platforms, RAID server recovery routines, redundant NAS storage arrays, and secure software sanitization systems matching highest compliance models.",
       logoText: "stellar",
-      image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=800",
+      image: IMAGE_PATHS.brands.stellar,
       color: "from-orange-500 to-red-600",
       icon: HardDrive,
       specifications: [

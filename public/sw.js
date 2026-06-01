@@ -10,7 +10,7 @@ const CACHE_NAME = 'scattergates-v1.0.0';
 const PRECACHE_ASSETS = [
   '/',
   '/index.html',
-  '/logo.png',
+  '/images/branding/symbol.png',
   '/robots.txt',
   '/sitemap.xml'
 ];

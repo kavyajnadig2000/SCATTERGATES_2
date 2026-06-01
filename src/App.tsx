@@ -210,8 +210,8 @@ export default function App() {
           <div className="absolute inset-0 bg-[#070b13]" />
           <div className="absolute inset-0 bg-gradient-to-br from-[#070b13] via-[#0b121f] to-[#04080e]" />
           
-          {/* Subtle Server Room / Tech overlay grid with low opacity to prevent layout shifts */}
-          <div className="absolute inset-0 bg-cover bg-center mix-blend-overlay opacity-15 pointer-events-none" style={{ backgroundImage: `url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=1200')` }} />
+          {/* Subtle Enterprise technology layer overlay with a production-safe local asset */}
+          <div className="absolute inset-0 bg-cover bg-center mix-blend-overlay opacity-15 pointer-events-none" style={{ backgroundImage: `url('/images/hero/enterprise-technology.webp')` }} />
           
           {/* Red/Orange Accent shapes from Slide 1 Cover */}
           <div className="absolute top-[20%] right-[10%] w-[32rem] h-[32rem] bg-red-600/10 blur-[130px] rounded-full pointer-events-none" />

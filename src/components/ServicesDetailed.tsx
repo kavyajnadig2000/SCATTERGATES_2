@@ -6,6 +6,7 @@ import {
 
 // Types
 import { ServiceCategory } from "../types";
+import { IMAGE_PATHS } from "../config/imagePaths";
 
 // Animation variants for staggered entrance
 const staggerContainer = {
@@ -64,7 +65,7 @@ export default function ServicesDetailed({ onSelectWizard }: { onSelectWizard: (
       title: "IT Infrastructure & End-User Computing",
       shortDesc: "Comprehensive baseline architecture including custom rack server arrays, failover firewalls, high-density storage, and managed client endpoints.",
       longDesc: "Scattergates Business Solutions provides complete, certified end-to-end hardware installations aimed at ensuring a high-performance corporate operations footprint. We source directly from elite OEM partners and provide continuous support cycles.",
-      imageUrl: "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?auto=format&fit=crop&q=80&w=1200",
+      imageUrl: IMAGE_PATHS.services.itInfrastructure,
       items: [
         {
           title: "High-Performance Servers & Storage",
@@ -105,7 +106,7 @@ export default function ServicesDetailed({ onSelectWizard }: { onSelectWizard: (
       title: "Network Technologies & Smart Audio-Visual",
       shortDesc: "Category copper/fiber backbone systems, cable design moves/adds/changes, and integrated Microsoft / Zoom boardrooms.",
       longDesc: "We splice, test, and commission corporate networks with extreme quality standards. Scattergates also handles meeting rooms from acoustic engineering plans to ceiling microphone integration.",
-      imageUrl: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&q=80&w=1200",
+      imageUrl: IMAGE_PATHS.services.networkInfrastructure,
       items: [
         {
           title: "Backbone Structured Cabling",
@@ -143,7 +144,7 @@ export default function ServicesDetailed({ onSelectWizard }: { onSelectWizard: (
       title: "Professional Services & IT Outsourcing",
       shortDesc: "C-level cloud roadmap consultants, contract IT engineers, vetted permanent staffing solutions, and full RPO pipelines.",
       longDesc: "Solve your workforce scaling challenges instantly. We source, screen, interview, and support first-rate system analysts, developers, and administrators across India on permanent or project cycles.",
-      imageUrl: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=1200",
+      imageUrl: IMAGE_PATHS.services.managedServices,
       items: [
         {
           title: "Strategic IT Management Consulting",
@@ -182,35 +183,35 @@ export default function ServicesDetailed({ onSelectWizard }: { onSelectWizard: (
       id: "camera",
       name: "Enterprise PTZ Boardroom Camera",
       category: "Audio-Visual Systems",
-      image: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&q=80&w=400", // Representative board room tech
+      image: IMAGE_PATHS.products.enterprisePtzBoardroom,
       desc: "Full HD PTZ optical zoom conference camera paired with high-frequency desktop speakerphones, remote management control, and quick USB interface endpoints."
     },
     {
       id: "server",
       name: "2U Dual-Socket Rack Server Sizing",
       category: "IT Infrastructure",
-      image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=400", // Server rack representational
+      image: IMAGE_PATHS.products.rackServer,
       desc: "Dense computing platforms with hot-swap SAS drive bays, enterprise hardware redundancy, and extreme virtualization scale capacity."
     },
     {
       id: "cabling",
       name: "Category 6A / 7 Copper Splicing",
       category: "Network Systems",
-      image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&q=80&w=400", // Cable representative
+      image: IMAGE_PATHS.products.structuredCabling,
       desc: "Gold-plated low-loss structured cabling networks paired with industrial backbone shielding, precision copper testing, and modular patch bay terminals."
     },
     {
       id: "monitors",
       name: "Corporate Client Workstations",
       category: "End-User Devices",
-      image: "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&q=80&w=400", // Workstation setup representation
+      image: IMAGE_PATHS.products.corporateWorkstation,
       desc: "Vibrant high-contrast screens (ThinkVision and iMac lineups), small form factor corporate desktop towers, and ergonomic silent computer accessories."
     },
     {
       id: "peripherals",
       name: "Physical Spares & System Cache",
       category: "IT Hardware",
-      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=400", // DDR module representation
+      image: IMAGE_PATHS.products.hardwareComponents,
       desc: "Vetted physical system components including DDR4/DDR5 high-density speed RAM, solid-state cache disks with 120GB+ arrays, and full CMYK printer developer kits."
     }
   ];
