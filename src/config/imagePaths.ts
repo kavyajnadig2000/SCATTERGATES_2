@@ -1,4 +1,8 @@
 export const IMAGE_PATHS = {
+  branding: {
+    symbol: "/images/branding/symbol.png",
+    fullmark: "/images/branding/scattergates-logo.png",
+  },
   hero: {
     enterpriseTechnology: "/images/hero/enterprise-technology.webp",
   },
@@ -11,7 +15,7 @@ export const IMAGE_PATHS = {
   products: {
     enterprisePtzBoardroom: "/images/products/enterprise-ptz-boardroom.webp",
     rackServer: "/images/products/rack-server.webp",
-    structuredCabling: "/images/products/structured-cabling.webp",
+    structuredCabling: "/images/services/network-infrastructure.webp",
     corporateWorkstation: "/images/products/corporate-workstation.webp",
     hardwareComponents: "/images/products/hardware-components.webp",
   },

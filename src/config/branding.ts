@@ -1,5 +1,7 @@
+import { IMAGE_PATHS } from "./imagePaths";
+
 export const BRAND = {
   name: "Scattergates",
-  symbol: "/images/branding/symbol.png",
-  fullmark: "/images/branding/scattergates-logo.png",
+  symbol: IMAGE_PATHS.branding.symbol,
+  fullmark: IMAGE_PATHS.branding.fullmark,
 };
